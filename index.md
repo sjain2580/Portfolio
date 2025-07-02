@@ -4,11 +4,6 @@ layout: default
 
 <h1 style="margin-top: 2rem;">👋 Hi, I’m Sakshi</h1>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/sjain04/">🔗 LinkedIn</a> |
-  <a href="mailto:sjain040395@gmail.com">📧 Email</a>
-</p>
-
 ---
 
 ## 🧠 About Me
