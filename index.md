@@ -130,7 +130,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
     </a>
     &nbsp;&nbsp;
     <a href="mailto:sjain040395@gmail.com">
-      <img class="badge-hover" src="https://img.shields.io/badge/Email-grey?style=for-the-badge&logo=gmail&logoColor=white" />
+      <img class="badge-hover" src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
   </div>
 
