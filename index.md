@@ -72,4 +72,4 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 📧 [Email me](mailto:sjain040395@gmail.com)
 💼 [LinkedIn](https://www.linkedin.com/in/sjain04/)
 
-## Thanks for stopping by! 😊 </p>
+## Thanks for stopping by! 😊
