@@ -14,6 +14,23 @@ I hold a **Master’s degree in Software Engineering for Industrial Applications
 
 I enjoy solving problems with **structured, maintainable code** and am currently focused on **DevOps** and **AI**.
 
+## ✉️ Contact Me
+
+<form action="https://formspree.io/f/your-form-id" method="POST" style="max-width: 500px; margin: auto;">
+  <label for="name">Name</label><br>
+  <input type="text" name="name" required style="width: 100%; padding: 8px; margin-bottom: 10px;" />
+
+  <label for="email">Email</label><br>
+  <input type="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 10px;" />
+
+  <label for="message">Message</label><br>
+  <textarea name="message" rows="5" required style="width: 100%; padding: 8px; margin-bottom: 10px;"></textarea>
+
+  <button type="submit" style="background-color: #0A66C2; color: white; padding: 10px 20px; border: none; cursor: pointer;">
+    Send
+  </button>
+</form>
+
 ---
 
 ## ⚙️ Tech Stack
