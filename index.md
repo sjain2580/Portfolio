@@ -20,7 +20,7 @@ I’m passionate about solving complex problems through **structured, maintainab
 
 ---
 
-## 🛠️ Tech Stack
+<h1>🛠️ Tech Stack </h1>
 
 <div align="center">
 
@@ -41,9 +41,9 @@ I’m passionate about solving complex problems through **structured, maintainab
 
 ## 🚀 Current Focus
 
-- ✨ Building projects with Python & automation  
-- 📚 Upskilling in **DevOps and AI** to pursue roles that blend intelligent automation, cloud infrastructure, and scalable system design  
-- 🤝 Open to collaborations and learning opportunities
+✨ Building projects with Python & automation  
+📚 Upskilling in **DevOps and AI** to pursue roles that blend intelligent automation, cloud infrastructure, and scalable system design  
+🤝 Open to collaborations and learning opportunities
 
 ---
 
