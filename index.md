@@ -32,6 +32,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" />
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" />
 </div>
+<br>
 
 ---
 ## 🚀 Current Focus
