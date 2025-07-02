@@ -4,58 +4,77 @@ layout: default
 
 <h1 style="margin-top: 2rem;">👋 Hi, I’m Sakshi</h1>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sjain04/)
-[![Email](https://img.shields.io/badge/Email-DM%20Me-blue)](mailto:sjain040395@gmail.com)
+<p align="center">
+  <a href="https://www.linkedin.com/in/sjain04/">🔗 LinkedIn</a> |
+  <a href="mailto:sjain040395@gmail.com">📧 Email</a>
+</p>
 
 ---
 
 ## 🧠 About Me
 
 I hold a **Master’s degree in Software Engineering for Industrial Applications** from **Hof University of Applied Sciences, Germany**, with strong academic exposure to:
+
 - ✅ Project management  
 - ✅ Component-oriented software development  
 - ✅ Industry 4.0 systems  
 
-I’m passionate about solving complex problems through **structured, maintainable code** and committed to **continuous learning** and innovation.
+I enjoy solving problems with **structured, maintainable code** and am currently focused on **DevOps** and **AI**.
 
-<h1>🛠️ Tech Stack</h1>
+---
 
-<div style="list-style-type: none; padding-left: 0;">
-    <!-- Languages & Frameworks -->
-    <div style="text-align: left; margin-bottom: 1rem;">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
-    </div>
-    <div style="text-align: left; margin-bottom: 1rem;">
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" />
-    </div>
-    <div style="text-align: left; margin-bottom: 1rem;">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" />
-    </div>
+## ⚙️ Tech Stack
+
+### Languages & Frameworks  
+<div align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
 </div>
 
-<div style="list-style-type: none; padding-left: 0;">
-    <!-- Tools & Platforms -->
-    <div style="text-align: left; margin-bottom: 1rem;">
-        <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
-    </div>
-    <div style="text-align: left; margin-bottom: 1rem;">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
-    </div>
-    <div style="text-align: left; margin-bottom: 1rem;">
-        <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-    </div>
-    <div style="text-align: left; margin-bottom: 1rem;">
-        <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" alt="Jira" />
-    </div>
+### Tools & Platforms  
+<div align="left">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" />
 </div>
+
+---
 
 ## 🚀 Current Focus
 
-✨ Building projects with Python & automation  
-📚 Upskilling in **DevOps and AI** to pursue roles that blend intelligent automation, cloud infrastructure, and scalable system design  
-🤝 Open to collaborations and learning opportunities
+- ✨ Building projects with Python & automation  
+- 📚 Upskilling in **DevOps** and **AI** for intelligent automation & cloud deployment  
+- 🤝 Open to collaborations and learning opportunities
 
 ---
+
+## 📂 Projects
+
+| Name                  | Description                                                       | Tech Stack        |
+|-----------------------|-------------------------------------------------------------------|-------------------|
+| Portfolio Website     | This site, built with GitHub Pages & Jekyll                      | HTML, Markdown    |
+| Python Automation     | CLI tools for data cleaning & conversion                         | Python, Pandas    |
+| AI Chat Assistant     | Simple Q&A assistant using OpenAI API                            | Python, GPT API   |
+
+➡️ *More coming soon!*
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sjain2580&show_icons=true&theme=default&hide_title=true" width="60%" />
+</p>
+
+---
+
+## 📫 Let’s Connect
+
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/sjain04/) or [email](mailto:sjain040395@gmail.com).  
+Thanks for stopping by! 😊
+
 
 ## 📫 Let’s Connect
 
