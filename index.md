@@ -41,7 +41,6 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 </div>
 
 ---
-
 ## 🚀 Current Focus
 
 - ✨ Building projects with Python & automation  
