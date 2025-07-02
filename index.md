@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <style>
   .card {
     max-width: 700px;
@@ -40,11 +44,14 @@
     font-weight: bold;
     cursor: pointer;
   }
-</style>
 
----
-layout: default
----
+  .success-msg {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+</style>
 
 <h1 style="margin-top: 2rem;">👋 Hi, I’m Sakshi</h1>
 
@@ -64,21 +71,21 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 
 ### Languages & Frameworks  
 <div align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" class="badge-hover" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" class="badge-hover" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" class="badge-hover" />
 </div>
 
 ### Tools & Platforms  
 <div align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" class="badge-hover" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" class="badge-hover" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" class="badge-hover" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" class="badge-hover" />
 </div>
-<br>
 
 ---
+
 ## 🚀 Current Focus
 
 ✨ Building projects with Python & automation  
@@ -86,6 +93,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 🤝 Open to collaborations and learning opportunities
 
 ---
+
 ## 📂 Projects
 
 <table>
@@ -105,18 +113,19 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 ➡️ *More coming soon!*
 
 ---
+
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sjain2580&show_icons=true&theme=default&hide_title=true" width="60%" />
-</p>
+<div class="card" align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sjain2580&show_icons=true&theme=default&hide_title=true" width="80%" />
+</div>
 
 ---
 
 ## 📫 Let's Connect
 
 <div class="card">
-  <div align="center">
+  <div align="left">
     <a href="https://www.linkedin.com/in/sjain04/" target="_blank">
       <img class="badge-hover" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
     </a>
@@ -132,7 +141,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   </div>
 
   <div id="contact-form" class="slide-in" style="margin-top: 25px;">
-    <form action="https://formspree.io/f/your-form-id" method="POST">
+    <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST" onsubmit="return showConfirmation()">
       <label>Name</label><br>
       <input type="text" name="name" required style="width:100%;padding:10px;margin-bottom:12px;" />
 
@@ -144,6 +153,9 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 
       <button type="submit" class="centered-btn">Send</button>
     </form>
+    <p id="form-success" class="success-msg" style="display: none;">
+      ✅ Message sent! I’ll get back to you soon.
+    </p>
   </div>
 </div>
 
@@ -152,5 +164,11 @@ I enjoy solving problems with **structured, maintainable code** and am currently
     const form = document.getElementById('contact-form');
     form.style.display = 'block';
     form.classList.add('slide-in');
+  }
+
+  function showConfirmation() {
+    document.getElementById('contactForm').style.display = 'none';
+    document.getElementById('form-success').style.display = 'block';
+    return false; // prevents page reload
   }
 </script>
