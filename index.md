@@ -74,9 +74,3 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 
 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/sjain04/) or [email](mailto:sjain040395@gmail.com).  
 Thanks for stopping by! 😊
-
-
-## 📫 Let’s Connect
-
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/sjain04/) or [email](mailto:sjain040395@gmail.com).  
-Thanks for stopping by! 😊
