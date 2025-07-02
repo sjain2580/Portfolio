@@ -33,6 +33,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" />
 </div>
 
+---
 ## 🚀 Current Focus
 
 ✨ Building projects with Python & automation  
