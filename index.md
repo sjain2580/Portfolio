@@ -84,7 +84,6 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" class="badge-hover" />
 </div>
 <br>
----
 
 ## 🚀 Current Focus
 
@@ -136,23 +135,29 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   </div>
 
   <br />
-  <div align="center">
+  <div align="left">
     <button class="centered-btn" onclick="revealForm()">Get in Touch</button>
   </div>
 
   <div id="contact-form" class="slide-in" style="margin-top: 25px;">
-    <form id="contactForm" action="https://formspree.io/f/xzzgwbay" method="POST" onsubmit="return showConfirmation()">
-      <label>Name</label><br>
-      <input type="text" name="name" required style="width:100%;padding:10px;margin-bottom:12px;" />
+    <form
+      id="contactForm"
+      action="https://formspree.io/f/xzzgwbay"
+      method="POST"
+      onsubmit="return showConfirmation()"
+    >
+      <label for="name">Name</label><br>
+      <input id="name" name="name" type="text" required style="width:100%;padding:10px;margin-bottom:12px;" />
 
-      <label>Email</label><br>
-      <input type="email" name="email" required style="width:100%;padding:10px;margin-bottom:12px;" />
+      <label for="email">Email</label><br>
+      <input id="email" name="email" type="email" required style="width:100%;padding:10px;margin-bottom:12px;" />
 
-      <label>Message</label><br>
-      <textarea name="message" rows="5" required style="width:100%;padding:10px;margin-bottom:12px;"></textarea>
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="5" required style="width:100%;padding:10px;margin-bottom:12px;"></textarea>
 
       <button type="submit" class="centered-btn">Send</button>
     </form>
+
     <p id="form-success" class="success-msg" style="display: none;">
       ✅ Message sent! I’ll get back to you soon.
     </p>
@@ -169,6 +174,6 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   function showConfirmation() {
     document.getElementById('contactForm').style.display = 'none';
     document.getElementById('form-success').style.display = 'block';
-    return false; // prevents page reload
+    return false;
   }
 </script>
