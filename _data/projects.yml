@@ -1,0 +1,9 @@
+- name: Portfolio Website
+  description: This site, built with GitHub Pages & Jekyll
+  tech: HTML, Markdown
+- name: Python Automation
+  description: CLI tools for data cleaning & conversion
+  tech: Python, Pandas
+- name: AI Chat Assistant
+  description: Q&A assistant using OpenAI API
+  tech: Python, GPT API
