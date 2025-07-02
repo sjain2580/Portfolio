@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Sakshi Jain - Portfolio
 ---
 
 # 👋 Hi, I'm Sakshi
