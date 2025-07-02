@@ -4,9 +4,7 @@ layout: default
 
 <h1 style="margin-top: 2rem;">👋 Hi, I’m Sakshi</h1>
 
----
-
-## 🧠 About Me
+## About Me
 
 I hold a **Master’s degree in Software Engineering for Industrial Applications** from **Hof University of Applied Sciences, Germany**, with strong academic exposure to:
 
@@ -35,12 +33,11 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white" />
 </div>
 
----
 ## 🚀 Current Focus
 
-- ✨ Building projects with Python & automation  
-- 📚 Upskilling in **DevOps** and **AI** for intelligent automation & cloud deployment  
-- 🤝 Open to collaborations and learning opportunities
+✨ Building projects with Python & automation  
+📚 Upskilling in **DevOps** and **AI** for intelligent automation & cloud deployment  
+🤝 Open to collaborations and learning opportunities
 
 ---
 
