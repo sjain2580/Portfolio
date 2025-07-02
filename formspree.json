@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "xzzgwbay": {
+      "name": "Contact Form",
+      "actions": [
+        {
+          "type": "email",
+          "to": "sjain040395@gmail.com"
+        }
+      ]
+    }
+  }
+}
