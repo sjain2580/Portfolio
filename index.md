@@ -154,4 +154,3 @@ I enjoy solving problems with **structured, maintainable code** and am currently
     form.classList.add('slide-in');
   }
 </script>
-🙏 Thanks for stopping by! 😊
