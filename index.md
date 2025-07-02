@@ -85,6 +85,8 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 </div>
 <br>
 
+---
+
 ## 🚀 Current Focus
 
 ✨ Building projects with Python & automation  
