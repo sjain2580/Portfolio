@@ -42,7 +42,6 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 🤝 Open to collaborations and learning opportunities
 
 ---
-
 ## 📂 Projects
 
 | Name                  | Description                                                       | Tech Stack        |
@@ -54,7 +53,6 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 ➡️ *More coming soon!*
 
 ---
-
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -62,7 +60,6 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 </p>
 
 ---
-
 ## 📫 Let’s Connect
 <p align="center">
   <p> Feel free to reach out via </p>
