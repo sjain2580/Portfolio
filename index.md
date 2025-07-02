@@ -22,7 +22,6 @@ I’m passionate about solving complex problems through **structured, maintainab
 
 ## 🛠️ Tech Stack
 
-### Languages & Frameworks
 <div align="center">
 
 <!-- Languages & Frameworks -->
