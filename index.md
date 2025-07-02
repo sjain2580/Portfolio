@@ -69,9 +69,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 
 ---
 ## 📫 Let’s Connect
-<p align="center">
-  <p> Feel free to reach out via </p>
-  <a href="https://www.linkedin.com/in/sjain04/">🔗 LinkedIn</a> |
-  <a href="mailto:sjain040395@gmail.com">📧 Email</a>
-</p>
-<p> Thanks for stopping by! 😊 </p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)]( https://www.linkedin.com/in/sjain04/)
+[![Email](https://img.shields.io/badge/Email-DM%20Me-blue)](mailto:sjain040395@gmail.com)
+
+Thanks for stopping by! 😊 </p>
