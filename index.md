@@ -41,7 +41,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 📚 Upskilling in **DevOps** and **AI** for intelligent automation & cloud deployment  
 🤝 Open to collaborations and learning opportunities
 
-<br>
+---
 
 ## 📂 Projects
 
@@ -53,7 +53,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 
 ➡️ *More coming soon!*
 
-<br>
+---
 
 ## 📊 GitHub Stats
 
@@ -61,9 +61,12 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   <img src="https://github-readme-stats.vercel.app/api?username=sjain2580&show_icons=true&theme=default&hide_title=true" width="60%" />
 </p>
 
-<br>
+---
 
 ## 📫 Let’s Connect
-
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/sjain04/) or [email](mailto:sjain040395@gmail.com).  
-Thanks for stopping by! 😊
+<p align="center">
+  <p> Feel free to reach out via </p>
+  <a href="https://www.linkedin.com/in/sjain04/">🔗 LinkedIn</a> |
+  <a href="mailto:sjain040395@gmail.com">📧 Email</a>
+</p>
+<p> Thanks for stopping by! 😊 </p>
