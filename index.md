@@ -57,7 +57,7 @@ layout: default
 
 ## About Me
 
-I hold a **Master’s degree in Software Engineering for Industrial Applications** from **Hof University of Applied Sciences, Germany**, with strong academic exposure to:
+I hold a Master’s degree in Software Engineering for Industrial Applications from **Hof University of Applied Sciences, Germany**, with strong academic exposure to:
 
 - ✅ Project management  
 - ✅ Component-oriented software development  
