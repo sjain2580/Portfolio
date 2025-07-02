@@ -44,13 +44,21 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 ---
 ## 📂 Projects
 
-| Name                  | Description                                                       | Tech Stack        |
-|-----------------------|-------------------------------------------------------------------|-------------------|
-| Portfolio Website     | This site, built with GitHub Pages & Jekyll                      | HTML, Markdown    |
-| Python Automation     | CLI tools for data cleaning & conversion                         | Python, Pandas    |
-| AI Chat Assistant     | Simple Q&A assistant using OpenAI API                            | Python, GPT API   |
-
-➡️ *More coming soon!*
+<table>
+  <thead>
+    <tr><th>Name</th><th>Description</th><th>Tech Stack</th></tr>
+  </thead>
+  <tbody>
+    {% for project in site.data.projects %}
+    <tr>
+      <td>{{ project.name }}</td>
+      <td>{{ project.description }}</td>
+      <td>{{ project.tech }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+## ➡️ *More coming soon!*
 
 ---
 ## 📊 GitHub Stats
