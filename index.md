@@ -1,3 +1,47 @@
+<style>
+  .card {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .slide-in {
+    animation: slideIn 0.6s ease forwards;
+    display: none;
+  }
+
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+      display: block;
+    }
+  }
+
+  .badge-hover:hover {
+    transform: scale(1.1);
+    opacity: 0.85;
+    transition: 0.3s ease-in-out;
+  }
+
+  .centered-btn {
+    background-color: #0A66C2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+
 ---
 layout: default
 ---
@@ -68,45 +112,46 @@ I enjoy solving problems with **structured, maintainable code** and am currently
 </p>
 
 ---
-## 📫 Let’s Connect
 
-<div align="left">
-<a href="https://www.linkedin.com/in/sjain04/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn Badge"/>
-</a>
-&nbsp;&nbsp;
-<a href="mailto:sjain040395@gmail.com">
-  <img src="https://img.shields.io/badge/Email-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
-</a>
+## 📫 Let's Connect
 
-</div>
-## ✉️ Contact Me
+<div class="card">
+  <div align="center">
+    <a href="https://www.linkedin.com/in/sjain04/" target="_blank">
+      <img class="badge-hover" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="mailto:sjain040395@gmail.com">
+      <img class="badge-hover" src="https://img.shields.io/badge/Email-grey?style=for-the-badge&logo=gmail&logoColor=white" />
+    </a>
+  </div>
 
-<div align="center">
-  <button onclick="toggleForm()" style="background-color:#0A66C2;color:white;padding:10px 20px;border:none;border-radius:5px;cursor:pointer;">
-    Get in Touch
-  </button>
-</div>
+  <br />
+  <div align="center">
+    <button class="centered-btn" onclick="revealForm()">Get in Touch</button>
+  </div>
 
-<div id="contact-form" style="display:none; margin-top:20px; max-width: 500px; margin:auto;">
-  <form action="https://formspree.io/f/your-form-id" method="POST">
-    <label>Name</label><br>
-    <input type="text" name="name" required style="width:100%; padding:8px; margin-bottom:10px;" /><br>
-    
-    <label>Email</label><br>
-    <input type="email" name="email" required style="width:100%; padding:8px; margin-bottom:10px;" /><br>
-    
-    <label>Message</label><br>
-    <textarea name="message" rows="5" required style="width:100%; padding:8px;"></textarea><br><br>
-    
-    <button type="submit" style="background-color:#0A66C2;color:white;padding:10px 20px;border:none;cursor:pointer;">Send</button>
-  </form>
+  <div id="contact-form" class="slide-in" style="margin-top: 25px;">
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label>Name</label><br>
+      <input type="text" name="name" required style="width:100%;padding:10px;margin-bottom:12px;" />
+
+      <label>Email</label><br>
+      <input type="email" name="email" required style="width:100%;padding:10px;margin-bottom:12px;" />
+
+      <label>Message</label><br>
+      <textarea name="message" rows="5" required style="width:100%;padding:10px;margin-bottom:12px;"></textarea>
+
+      <button type="submit" class="centered-btn">Send</button>
+    </form>
+  </div>
 </div>
 
 <script>
-  function toggleForm() {
-    var form = document.getElementById("contact-form");
-    form.style.display = form.style.display === "none" ? "block" : "none";
+  function revealForm() {
+    const form = document.getElementById('contact-form');
+    form.style.display = 'block';
+    form.classList.add('slide-in');
   }
 </script>
 🙏 Thanks for stopping by! 😊
