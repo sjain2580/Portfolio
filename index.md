@@ -58,7 +58,7 @@ I enjoy solving problems with **structured, maintainable code** and am currently
     {% endfor %}
   </tbody>
 </table>
-## ➡️ *More coming soon!*
+➡️ *More coming soon!*
 
 ---
 ## 📊 GitHub Stats
