@@ -161,12 +161,12 @@ I enjoy solving problems with **structured, maintainable code** and am currently
     </p>
   </div>
     <!-- Hidden form for Netlify detection -->
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-    <input type="hidden" name="form-name" value="contact" />
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <textarea name="message"></textarea>
-  </form>
+ <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="contact" />
+  <input name="name" />
+  <input name="email" />
+  <textarea name="message"></textarea>
+</form>
 </div>
 
 <script>
