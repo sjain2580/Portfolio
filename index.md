@@ -140,32 +140,32 @@ I enjoy solving problems with **structured, maintainable code** and am currently
     <button class="centered-btn" onclick="revealForm()">Get in Touch</button>
   </div>
   
-  <div id="contact-form" class="slide-in" style="margin-top: 25px;">
-    <form name="contact" method="POST" data-netlify="true" action="/thanks.html">
-    
+  <div id="contact-form" class="slide-in" style="margin-top:25px;">
+    <form id="contactForm" name="contact" method="POST" data-netlify="true" action="/thanks.html">
       <input type="hidden" name="form-name" value="contact" />
-    <label for="name">Name</label><br>
-    <input id="name" name="name" type="text" required style="width:100%;padding:10px;margin-bottom:12px;" />
+        <label for="name">Name</label><br>
+        <input id="name" name="name" type="text" required style="width:100%;padding:10px;margin-bottom:12px;" />
 
-    <label for="email">Email</label><br>
-    <input id="email" name="email" type="email" required style="width:100%;padding:10px;margin-bottom:12px;" />
+        <label for="email">Email</label><br>
+        <input id="email" name="email" type="email" required style="width:100%;padding:10px;margin-bottom:12px;" />
 
-    <label for="message">Message</label><br>
-    <textarea id="message" name="message" rows="5" required style="width:100%;padding:10px;margin-bottom:12px;"></textarea>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="5" required style="width:100%;padding:10px;margin-bottom:12px;"></textarea>
 
-    <button type="submit" class="centered-btn">Send</button>
-  </form>
-</div>
-    <!-- Netlify hidden form detection -->
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-  <input type="text" name="name" />
-  <input type="email" name="email" />
-  <textarea name="message"></textarea>
-  </form>
+        <button type="submit" class="centered-btn">Send</button>
+    </form>
+    
     <p id="form-success" class="success-msg" style="display: none;">
       ✅ Message sent! I’ll get back to you soon.
     </p>
   </div>
+    <!-- Hidden form for Netlify detection -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="contact" />
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+  </form>
 </div>
 
 <script>
@@ -174,10 +174,3 @@ I enjoy solving problems with **structured, maintainable code** and am currently
     form.style.display = 'block';
     form.classList.add('slide-in');
   }
-
-  function showConfirmation() {
-    document.getElementById('contactForm').style.display = 'none';
-    document.getElementById('form-success').style.display = 'block';
-    return false;
-  }
-</script>
