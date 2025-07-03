@@ -1,0 +1,3 @@
+[build]
+  publish = "."  # serve from root
+  command = ""   # no build command needed
