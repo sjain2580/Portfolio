@@ -156,7 +156,12 @@ I enjoy solving problems with **structured, maintainable code** and am currently
     <button type="submit" class="centered-btn">Send</button>
   </form>
 </div>
-
+    <!-- Netlify hidden form detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="name" />
+  <input type="email" name="email" />
+  <textarea name="message"></textarea>
+  </form>
     <p id="form-success" class="success-msg" style="display: none;">
       ✅ Message sent! I’ll get back to you soon.
     </p>
