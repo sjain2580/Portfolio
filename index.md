@@ -141,7 +141,8 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   </div>
   
   <div id="contact-form" class="slide-in" style="margin-top:25px;">
-    <form id="contactForm" name="contact" method="POST" data-netlify="true" action="/thanks.html">
+    
+    <form name="contact" method="POST" data-netlify="true" action="/thanks.html">
       <input type="hidden" name="form-name" value="contact" />
         <label for="name">Name</label><br>
         <input id="name" name="name" type="text" required style="width:100%;padding:10px;margin-bottom:12px;" />
