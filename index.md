@@ -139,25 +139,29 @@ I enjoy solving problems with **structured, maintainable code** and am currently
   <div align="left">
     <button class="centered-btn" onclick="revealForm()">Get in Touch</button>
   </div>
-
+  
   <div id="contact-form" class="slide-in" style="margin-top: 25px;">
-    <form
-      id="contactForm"
-      action="https://formspree.io/f/xzzgwbay"
-      method="POST"
-      onsubmit="return showConfirmation()"
-    >
-      <label for="name">Name</label><br>
-      <input id="name" name="name" type="text" required style="width:100%;padding:10px;margin-bottom:12px;" />
+  <form
+    id="contactForm"
+    name="contact"
+    method="POST"
+    action="/thanks.html"
+    data-netlify="true"
+  >
+    <input type="hidden" name="form-name" value="contact" />
 
-      <label for="email">Email</label><br>
-      <input id="email" name="email" type="email" required style="width:100%;padding:10px;margin-bottom:12px;" />
+    <label for="name">Name</label><br>
+    <input id="name" name="name" type="text" required style="width:100%;padding:10px;margin-bottom:12px;" />
 
-      <label for="message">Message</label><br>
-      <textarea id="message" name="message" rows="5" required style="width:100%;padding:10px;margin-bottom:12px;"></textarea>
+    <label for="email">Email</label><br>
+    <input id="email" name="email" type="email" required style="width:100%;padding:10px;margin-bottom:12px;" />
 
-      <button type="submit" class="centered-btn">Send</button>
-    </form>
+    <label for="message">Message</label><br>
+    <textarea id="message" name="message" rows="5" required style="width:100%;padding:10px;margin-bottom:12px;"></textarea>
+
+    <button type="submit" class="centered-btn">Send</button>
+  </form>
+</div>
 
     <p id="form-success" class="success-msg" style="display: none;">
       ✅ Message sent! I’ll get back to you soon.
